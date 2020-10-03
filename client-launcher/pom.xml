@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.jlbcontrols.vcob</groupId>
+        <artifactId>vision-client-opc-browser</artifactId>
+        <version>1.10.0-beta0</version>
+    </parent>
+
+    <artifactId>client-launcher</artifactId>
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.inductiveautomation.ignitionsdk</groupId>
+            <artifactId>client-api</artifactId>
+            <version>${ignition-sdk-version}</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.inductiveautomation.ignitionsdk</groupId>
+            <artifactId>vision-client-api</artifactId>
+            <version>${ignition-sdk-version}</version>
+            <type>pom</type>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jlbcontrols.vcob</groupId>
+            <artifactId>vcob-client</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
