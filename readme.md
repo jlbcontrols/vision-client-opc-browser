@@ -2,9 +2,9 @@
 An OPC Browse Tree component for Ignition's Vision module.
 
 ## Features
-* Browse OPC Servers connected to your local Ignition Gateway.
-* Extension function to customize the look of Tree Nodes
-* Drag/Drop support. See the Pidbot Manager project for an example of tag creation using drag/drop.
+* Browse OPC Servers connected to your Ignition Gateway
+* Extension function to customize tree node rendering
+* Drag & Drop
 
 ## Demo
 ![Designer Demo](./docs/vcob-designer-demo.gif)  
