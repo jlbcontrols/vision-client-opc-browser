@@ -1,6 +1,18 @@
 ## Vision Client OPC Browser Module
 An OPC Browse Tree component for Ignition's Vision module.
 
+## Features
+* Browse OPC Servers connected to your local Ignition Gateway.
+* Extension function to customize the look of Tree Nodes
+* Drag/Drop support. See the Pidbot Manager project for an example of tag creation using drag/drop.
+
+## Demo
+![Designer Demo](./docs/vcob-designer-demo.gif)  
+*Simple demo in the Ignition Desinger*
+
+![Drag/Drop Demo](https://github.com/jlbcontrols/pidbot-manager/blob/master/docs/pid-tag-mgmt-create.gif)  
+*Custom rendering, and drag/drop UDT instance creation. See [Pidbot Manager](https://github.com/jlbcontrols/pidbot-manager) project for example source.*
+
 ## Required Software  
 * Ignition v8
 
